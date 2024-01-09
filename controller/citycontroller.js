@@ -125,7 +125,7 @@ const getStates = async (req, res) => {
                                 "country_name": element.countries[0].country_name
                             }
                             finaldata.push(tmp);
-                            console.log(finaldata);
+                            // console.log(finaldata);
                         }
                     });
                     res.json({
